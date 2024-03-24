@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section>
+		<h4>имена игроков</h4>
+		<p>первый игрок:<span id="name1"><span></p>
+			<p>второй игрок:<span id="name2"><span></p>
+
+          <button id="edit">изменить</button>
+	</section>
+
+	<section>
+		<div class="wrapper" id = "box">
+			<div class="cell" id="1"data-pip="">
+				<img id="10"src="images/я.jpg">
+				<img id="11"src="images/Б.jpg">
+			</div>
+			<div class="cell" id="2"data-pip="">
+				<img id="20"src="images/я.jpg">
+				<img id="21"src="images/Б.jpg">
+			</div>
+			<div class="cell" id="3"data-pip="">
+				<img id="30"src="images/я.jpg">
+				<img id="31"src="images/Б.jpg">
+			</div>
+			<div class="cell" id="4"data-pip="">
+				<img id="40"src="images/я.jpg">
+				<img id="41"src="images/Б.jpg">
+			</div>
+			<div class="cell" id="5"data-pip="">
+				<img id="50"src="images/я.jpg">
+				<img id="51"src="images/Б.jpg">
+			</div>
+			<div class="cell" id="6"data-pip="">
+				<img id="60"src="images/я.jpg">
+				<img id="61"src="images/Б.jpg">
+			</div>
+			<div class="cell" id="7"data-pip="">
+				<img id="70"src="images/я.jpg">
+				<img id="71"src="images/Б.jpg">
+			</div>
+			<div class="cell" id="8"data-pip="">
+				<img id="80"src="images/я.jpg">
+				<img id="81"src="images/Б.jpg">
+			</div>
+			<div class="cell" id="9"data-pip="">
+				<img id="90"src="images/я.jpg">
+				<img id="91"src="images/Б.jpg">
+			</div>
+		</div>
+
+		<div class="result" id="result">
+			<button onclick="result()">Результат</button>
+		</div>
+
+		<div class="restart">
+    		<a href="index.html">Начать заново</a>
+    	</div>
+	</section>
+
+
+
+	<div id="myModal" class="modal">
+
+		<div class="Modal-content">
+
+			<h3>Игрок 1</h3>
+
+	        <label>ведите имя первого игрока: </label>
+	        <input id="cont1" type="text" class="" cost=";">
+
+           <h3>Игрок 2</h3>
+
+           <label>ведите имя второго игрока: </label>
+           <input id="cont2" type="text" class="" cost=";">
+
+           <br><br>
+
+           <button id="save">сохранить</button>
+	    </div>
+	</div>
+
+
+	           
+	<script src="scripts/script.js"></script>
+
+</body>
+</html>
